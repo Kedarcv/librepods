@@ -659,3 +659,53 @@ obj/
 
 # End of https://www.toptal.com/developers/gitignore/api/qt,c++,clion,kotlin,python,android,pycharm,androidstudio,visualstudiocode,linux
 linux/.qmlls.ini
+
+# iOS / Xcode
+## Build generated
+ios/Build/
+ios/DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Swift Package Manager
+ios/.build/
+ios/.swiftpm/
+
+## CocoaPods
+ios/Pods/
+
+## Carthage
+ios/Carthage/Build/
+
+## Accio dependency management
+ios/Dependencies/
+ios/.accio/
+
+## fastlane
+ios/fastlane/report.xml
+ios/fastlane/Preview.html
+ios/fastlane/screenshots/**/*.png
+ios/fastlane/test_output
+
+## Code Injection
+iOSInjectionProject/

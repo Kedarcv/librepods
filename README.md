@@ -38,6 +38,23 @@ Most features should work with any AirPods. Currently, I've only got AirPods Pro
 
 ## Platform Support
 
+### iOS
+
+**NEW!** Native iOS app with full feature parity.
+
+Built with Swift and SwiftUI, the iOS version provides all the features available on Android:
+- Full Bluetooth LE communication with AirPods
+- Battery monitoring (left, right, case)
+- All noise control modes (Off, Transparency, Adaptive, ANC)
+- Hearing aid features with audiogram support
+- Head tracking and gesture detection
+- Stem action customization
+- 18 complete SwiftUI screens matching Android functionality
+
+**Status**: ✅ Complete and ready for Xcode build
+
+See [iOS README](./ios/README.md) for installation and build instructions.
+
 ### Linux
 for the old version see the [Linux README](./linux/README.md). (doesn't have many features, maintainer didn't have time to work on it)
 
